@@ -3,26 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header id="hd">
-        <section id="hd__sect01" class="hd__sect"></section>
-        <section id="hd__sect02" class="hd__sect"></section>
-        <section id="hd__sect03" class="hd__sect"></section>
+        <section id="hd__sect01" class="hd__sect">
+            <img src="./images/logo.jpeg" alt="logo">
+        </section>
+        <section id="hd__sect02" class="hd__sect">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </section>
+        <section id="hd__sect03" class="hd__sect">
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search" placeholder="Search...">
+            <button type="submit">search</button>
+        </section>
     </header>
     <main id="mn">
-        <section id="mn__sect01" class="mn__sect"></section>
-        <section id="mn__sect02" class="mn__sect">
-            <h2>our project</h2>
+        <section id="mn__sect01" class="mn__sect">
+            <section id="mn__sect01__sect01">
+                <img src="./images/person2.jpeg" alt="person image">
+                <h2>Ethar AbdelHakim</h2>
+            </section>
+            <section id="mn__sect01__sect02">
+                <h4>Hey There!I'm Ethar</h4>
+                <p>A Computer Engineering Student | Front-end Developer</p>
+                <section id="mn__sect01__sect02__btn">
+                    <button id="cvBtn">
+                    SEE MY CV
+                    </button>
+                    <button id="contactBtn">
+                    CONTACT ME
+                    </button>
+                </section>
+            </section>
         </section>
-        <section id="mn__sect03" class="mn__sect"></section>
-        <section id="mn__sect04" class="mn__sect"></section>
-        <section id="mn__sect05" class="mn__sect"></section>
-        <section id="mn__sect06" class="mn__sect"></section>
-        <section id="mn__sect07" class="mn__sect"></section>
-        <section id="mn__sect08" class="mn__sect"></section>
+        <section id="mn__sect02" class="mn__sect">
+            <h2>My Projects</h2>
+        </section>
+        <section id="mn__sect03" class="mn__sect02">
+            <div class="mn__sect__cont">
+                <img src="./images/prj1.jpg" alt="project image">
+                <h2>Dashboard UI</h2>
+                <p> A clean, modern administrative dashboard layout built using CSS Grid to organize statistics, charts, and data tables seamlessly</p>
+                <div class="mn__sect__btns">
+                    <button class="liveDemoBtn">Live Demo</button>
+                    <button class="codeBtn">Code</button>
+                </div>
+            </div>
+        </section>
+        <section id="mn__sect04" class="mn__sect02">
+            <div class="mn__sect__cont">
+                <img src="./images/prj2.jpg" alt="project image">
+                <h2>Product Landing Page</h2>
+                <p>A product showcase page featuring high-quality image galleries, and an "Add to Cart" button with a sleek, minimalist aesthetic.</p>
+                <div class="mn__sect__btns">
+                    <button class="liveDemoBtn">Live Demo</button>
+                    <button class="codeBtn">Code</button>
+                </div>
+        </section>
+        <section id="mn__sect05" class="mn__sect02">
+            <div class="mn__sect__cont">
+                <img src="./images/prj3.jpg" alt="project image">
+                <h2>To-Do List</h2>
+                <p>An interactive web app built with JavaScript allowing users to add, edit, and delete daily tasks with local storage support.</p>
+                <div class="mn__sect__btns">
+                    <button class="liveDemoBtn">Live Demo</button>
+                    <button class="codeBtn">Code</button>
+                </div>
+        </section>
+        <section id="mn__sect06" class="mn__sect02">
+            <div class="mn__sect__cont">
+                <img src="./images/prj4.jpeg" alt="project image">
+                <h2>Weather App</h2>
+                <p>A real-time weather interface that fetches live data from an external API and updates the UI based on current weather conditions.</p>
+                <div class="mn__sect__btns">
+                    <button class="liveDemoBtn">Live Demo</button>
+                    <button class="codeBtn">Code</button>
+                </div>
+        </section>
+        <section id="mn__sect07" class="mn__sect02">
+            <div class="mn__sect__cont">
+                <img src="./images/prj5.jpeg" alt="project image">
+                <h2>Interactive Recipe Book</h2>
+                <p>Interactive Recipe Book: A recipe catalog presented in beautifully styled cards, complete with a quick search feature to filter dishes by name or ingredients.</p>
+                <div class="mn__sect__btns">
+                    <button class="liveDemoBtn">Live Demo</button>
+                    <button class="codeBtn">Code</button>
+                </div>
+        </section>
+        <section id="mn__sect08" class="mn__sect02">
+            <div class="mn__sect__cont">
+                <img src="./images/prj6.jpeg" alt="project image">
+                <h2>Personal Notes App</h2>
+                <p>Personal Notes App: A lightweight notes application featuring soft powder color accents where users can write, categorize, and delete daily notes effortlessly.</p>
+                <div class="mn__sect__btns">
+                    <button class="liveDemoBtn">Live Demo</button>
+                    <button class="codeBtn">Code</button>
+                </div>
+        </section>
     </main>
     <footer id="ft"></footer>
 </body>
