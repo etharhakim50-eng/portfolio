@@ -3,7 +3,7 @@
 @media screen and (min-width: 320px) and (max-width: 780px){
     /* header */
 #hd{
-    height: 15vh;
+    height: 12vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +46,7 @@
     flex-direction: row;
 }
 #cvBtn{
-    width: 6rem;
+    width: 5rem;
 }
 #contactBtn{
     width: 5rem;
@@ -55,6 +55,17 @@
     display: flex;
     gap: 1rem;
     list-style: none;
+}
+#mn__sect01 img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#mn__sect01 h2{
+    font-size: 1.5rem;
 }
 #mn__sect02 h2{
     font-size: 10rem;

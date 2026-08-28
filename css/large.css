@@ -9,7 +9,7 @@
     display:flex;
 }
 #hd__sect01{
-    height: 15vh;
+    height: 12vh;
     flex: 2;
     align-items: center;
 }
@@ -18,14 +18,14 @@
     height: 60px;
 }
 #hd__sect02{
-    height: 15vh;
+    height: 12vh;
     flex: 5;
 }
 #hd__sect03{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh;
+    height: 12vh;
     flex: 2.5;
 }
 
@@ -56,6 +56,17 @@
 }
 #contactBtn{
     width: 8rem;
+}
+#mn__sect01 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 3rem;
+}
+#mn__sect01 h2{
+    font-size: 2rem;
 }
 /* #mn__sect01 {
     background-color: aqua;

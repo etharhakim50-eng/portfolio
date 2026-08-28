@@ -85,17 +85,17 @@
     flex-direction: column;
     text-align: center;
 }
-#mn__sect01 img{
+/* #mn__sect01 img{
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
     margin-left: 10px;
     margin-right: 3rem;
-}
+} */
 #mn__sect01 h2{
+    text-align: center;
     color: #897d72;
-    font-size: 2rem;
     margin-top: 1rem;
 }
 #mn__sect01__sect02{
