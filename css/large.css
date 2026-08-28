@@ -36,7 +36,7 @@
     background-color: #d48f8f;
     display:grid;
     grid-template-columns: 28vw 24vw 24vw 24vw;
-    grid-template-rows: 10vh 35vh 35vh;
+    grid-template-rows: 10vh 32.5vh 32.5vh;
     grid-template-areas:
     "mn__sect01 mn__sect02 mn__sect02 mn__sect02"
     "mn__sect01 mn__sect03 mn__sect04 mn__sect05"

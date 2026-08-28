@@ -89,6 +89,7 @@
     object-fit: cover;
     border-radius: 50%;
     margin:0 10px;
+    border: 0.5px solid #897d72;
 }
 #mn__sect01 h2{
     text-align: center;
