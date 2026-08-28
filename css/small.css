@@ -1,9 +1,8 @@
 /* mobile */
 /* small screen */
 @media screen and (min-width: 320px) and (max-width: 780px){
-    /* header */
+    /*----------------------------------------------- header ----------------------------------------------- */
 #hd{
-    height: 12vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,10 +25,9 @@
 #hd__sect03{
     display: none;
 }
-/* main */
+    /*----------------------------------------------- main ----------------------------------------------- */
 #mn{
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: repeat(5, 1fr);
     grid-template-areas:
     "mn__sect01 mn__sect01 "
     "mn__sect02 mn__sect02 "
@@ -41,6 +39,13 @@
 .mn__sect01,.mn__sect03{
     width: 100%;
     height: 40vh;
+}
+.mn__sect02{
+    height:10vh;
+}
+ #hd__sect01 img{
+    width: 120px;
+    height: 60px;
 }
 #mn__sect01 {
     flex-direction: row;
@@ -68,8 +73,9 @@
 }
 /* footer */
 /* #ft{
-    background-color: #03180d;
+    background-color: #5f544a;
     width: 100%;
     height: 10vh;
+    color: #eee;
 } */
 }
