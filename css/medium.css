@@ -67,10 +67,6 @@
 #mn__sect01 img{
     width: 150px;
     height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-left: 10px;
-    margin-right: 3rem;
 }
 #mn__sect01 h2{
     font-size: 1.5rem;
