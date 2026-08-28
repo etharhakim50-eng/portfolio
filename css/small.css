@@ -9,10 +9,13 @@
 }
 #hd__sect01{
     flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
  #hd__sect01 img{
     width: 150px;
-    height: 50px;
+    height: 60px;
     object-fit: contain;
 }
 #hd__sect02{

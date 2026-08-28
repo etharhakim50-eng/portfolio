@@ -12,13 +12,11 @@
     height: 10vh;
     background-color: #d2cece;
     display:flex;
-    gap: 1rem;
     border-bottom: 1px solid #897d72;
 }
 #hd__sect01{
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 /* #hd__sect01 h2{
@@ -28,7 +26,7 @@
     font-weight: small;
 } */
  #hd__sect01 img{
-    width: 150px;
+    width: 180px;
     object-fit: cover;
 }
 #hd__sect02{
