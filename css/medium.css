@@ -36,6 +36,10 @@
 #mn__sect01 {
     flex-direction: row;
 }
+ #hd__sect01 img{
+    width: 150px;
+    height: 60px;
+}
 #hd__sect02 ul{
     display: flex;
     gap: 3rem;

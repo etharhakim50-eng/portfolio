@@ -1,15 +1,22 @@
 /* mobile */
 /* small screen */
-@media screen and (min-width: 360px) and (max-width: 780px){
+@media screen and (min-width: 320px) and (max-width: 780px){
     /* header */
     #hd{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #hd__sect01{
-    flex: 1;
+    flex: 3;
+}
+ #hd__sect01 img{
+    width: 150px;
+    height: 50px;
+    object-fit: contain;
 }
 #hd__sect02{
-    flex: 2;
+    flex: 1;
 }
 #hd__sect03{
     display: none;
