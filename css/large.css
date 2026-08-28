@@ -45,6 +45,12 @@
     gap: 3rem;
     list-style: none;
 }
+#cvBtn{
+    width: 10rem;
+}
+#contactBtn{
+    width: 8rem;
+}
 /* #mn__sect01 {
     background-color: aqua;
     grid-area: mn__sect01;

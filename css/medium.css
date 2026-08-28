@@ -44,6 +44,12 @@
 #mn__sect02 h2{
     font-size: 6rem;
 }
+#cvBtn{
+    width: 8rem;
+}
+#contactBtn{
+    width: 8rem;
+}
 /* footer */
 /* #ft{
     background-color: #446d58;

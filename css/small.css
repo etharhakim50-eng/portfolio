@@ -33,6 +33,12 @@
 #mn__sect01 {
     flex-direction: row;
 }
+#cvBtn{
+    width: 6rem;
+}
+#contactBtn{
+    width: 5rem;
+}
 #hd__sect02 ul{
     display: flex;
     gap: 1rem;
