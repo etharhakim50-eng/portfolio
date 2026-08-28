@@ -9,18 +9,20 @@
     display:flex;
 }
 #hd__sect01{
-    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
     flex: 2;
 }
 #hd__sect02{
-    height: 10vh;
+    height: 15vh;
     flex: 5;
 }
 #hd__sect03{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 15vh;
     flex: 2.5;
 }
 
